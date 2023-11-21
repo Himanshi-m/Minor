@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bus_tracking_system">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BusTrackingSystem">
+        <activity android:name=".viewmodule.ViewBusAttendantActivity"></activity>
+        <activity android:name=".addmodule.AddBusAttendantActivity" />
+        <activity android:name=".viewmodule.ViewStudentActivity" />
+        <activity android:name=".addmodule.AddStudentActivity" />
+        <activity android:name=".viewmodule.ViewBusActivity" />
+        <activity android:name=".addmodule.AddBusActivity" />
+        <activity android:name=".BusAttendantActivity" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".CollegeHomeActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDozEjQwVMn4a24VG30VbWuM9dgE3gttx4" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

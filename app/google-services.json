@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "378716475555",
+    "firebase_url": "https://minor1234-28f4c-default-rtdb.firebaseio.com",
+    "project_id": "minor1234-28f4c",
+    "storage_bucket": "minor1234-28f4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378716475555:android:de43561fc72d3d255daf16",
+        "android_client_info": {
+          "package_name": "com.example.bus_tracking_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDozEjQwVMn4a24VG30VbWuM9dgE3gttx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378716475555:android:df845765383c7b945daf16",
+        "android_client_info": {
+          "package_name": "com.example.himanshi.bustrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDozEjQwVMn4a24VG30VbWuM9dgE3gttx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
